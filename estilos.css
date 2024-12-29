@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  background-color: #191c32;
+}
+.wrapper{
+    width: 100vw;
+    height: 90vh;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.proyectos{
+    background-color: #191c32;
+    color:#fff;
+    font-size:medium;
+    text-align: left;
+    margin:200px 10em left;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.conocimientos{
+    width: 15vw;
+    height: 100vh;
+    background-color: #191c32;
+    color:#fff;
+    padding: 3em;
+}
+
+.navbar{
+   display:flex;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.brand {
+    margin-top: -7px;
+
+}
+
+.brand span{
+    color:aqua;
+    
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu a{
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active{
+    color:aqua;
+}
+
+.menu a:hover{
+    background-color: aqua;
+    color:#191c32;
+    transition: ease-in .4s;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align:justify;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: right;
+    margin:auto;
+}
+
+h1{
+    font-size: 2em;
+}
+
+span{
+    color:aqua;
+}
+
+.main img{
+    width: 300px;   
+    border: 7px solid aqua; 
+    height: 350px;
+    padding: 5px
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.about-info h2{
+    font-size: 1cm;
+    color: #fff;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 2px;
+    margin-bottom: 1em;
+}
+
+.about p{
+    margin-bottom: 1em;
+}
+
+
+.bi{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.bi-github{
+    color:black;
+}
+
+.bi-linkedin{
+    color:blue;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 1.5cm;
+    height: 5px;
+    width: 70px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5cm;
+    font-size: 1cm;
+    
+}
+
+.redes-sociales h2{
+    margin: 5px;
+    margin-bottom: 10cm;
+    margin-top: 10px;
+}
+
+.tech-list{
+    padding: 5px;
+    justify-content: space-between;
+    
+}
+
+.contact-section{
+    display:flexbox;
+    font-size:medium;
+    text-align: left;
+    margin: 400px 5em;
+    color: #ffff;
+    background-color: #191c32;
+    width: 15vw;
+    height: 50vh;
+    padding: 3em;
+    
+}
+
+.contact-headings h2{
+    font-size: 2em;
+    text-align: left;;
+    
+}
+
+.container-contact{
+    padding: -10em;
+    margin: 5em;
+    width: 20vw;
+    height: 100vh;
+    text-align: left;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea{
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0,69);
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    cursor: pointer;
+    background-color: aqua;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+   
+    
+}
+
+.footer, .h2{
+    text-align: center;
+    font-size:3em;
+}
+
+.footer, .h5{
+    text-align: center;
+    font-size:3em;
+}
+
+
+
+
+
+
+
+
+
+
